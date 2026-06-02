@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #E8D9C4;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+}
+
+button{
+    background-color: #8ba3c5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+    gap: 50px;
+}
+
+.hero-text{
+    flex: 1;
+}
+
+.progress-card{
+    background: #E8D9C4;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.roadmap{
+    padding: 80px 50px;
+}
+
+.roadmap h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.roadmap-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.month-card{
+    background-color: #f5f0ff;
+    padding: 20px;
+    border-radius: 15px;
+    width:250px;
+}
+
+.weekly-planner{
+    padding: 80px 50px;
+}
+
+.weekly-planner h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.weekly-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.day-card{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.goals{
+    padding: 80px 50px;
+}
+
+.goals h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.goal-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.goal-card{
+    background: #8ba3c5;
+    padding: 25px;
+    width: 220px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.recources{
+    padding: 80px 50px;
+}
+
+.recources h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.resources-cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.progress-card{
+    background: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10 px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    background: #8ba3c5;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+footer p{
+    margin: 10px 0;
+}
